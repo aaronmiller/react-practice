@@ -20,7 +20,7 @@
     "webpack-dev-server": "^2.6.1"
   },
   "scripts": {
-    "build": "webpack -p",
+    "build": "webpack -p && cp ./src/index.html ./build/index.html",
     "dev": "webpack-dashboard -- webpack-dev-server"
   }
 }
